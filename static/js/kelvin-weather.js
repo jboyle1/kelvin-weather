@@ -16,6 +16,18 @@ fahrenheit = Math.floor(fahrenheit);
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 
 
+// --------- Add Interactivity -------------
+
+// Create Function that takes user name and outputs the value in a HTML string.
+function say_hi () {
+    let fname = document.getElementById('first_name').value;
+    let html = `Hello ${fname}, please enter your degrees in Kelvin below to convert them to degrees in celcius!`
+    document.getElementById('result1').innerHTML = html;
+}
+
+// Add an event listener for the say_hi function.
+document.getElementById('say').addEventListener('click', say_hi);
+
 
 
 
