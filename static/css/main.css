@@ -1,0 +1,59 @@
+/* Header */
+
+#title {
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 30px;
+    background-color: rgb(47, 95, 107);
+    color: #ffffff;
+}
+
+/* /Header */
+
+/* Main */
+
+#kelvin-calculator-area {
+    margin-top: 30px;
+}
+
+/* /Main */
+
+/* Form */
+
+#kelvin-input, #name-input {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+#first_name, #question {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#kelvin-input button, #name-input button {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button {
+    background-color: rgb(47, 95, 107);
+    border: none;
+    color: #ffffff;
+    padding: 3px 6px 3px 6px;
+    border-radius: 3px;
+    margin-left: 4px;
+}
+
+#result1, #result2, #output {
+    width:180px;
+    height:40px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+}
+
+/* /Form */
+
+
+
+
