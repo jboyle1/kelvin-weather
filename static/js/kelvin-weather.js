@@ -12,4 +12,10 @@ let fahrenheit = celsius * (9 / 5) + 32;
 // Use the .floor() method from the built-in Math object to round down the Fahrenheit temperature. Save the result to the fahrenheit variable.
 fahrenheit = Math.floor(fahrenheit);
 
+// Use console.log and string interpolation to log the temperature in fahrenheit to the console. Link 'kelvin-weather.js' to index.html before the closing body tag and check in browser devtools.
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+
+
+
 
