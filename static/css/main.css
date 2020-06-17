@@ -43,9 +43,9 @@ button {
     margin-left: 4px;
 }
 
-#result1, #result2, #output {
-    width:180px;
-    height:40px;
+#result1, #result2 {
+    width:280px;
+    height:70px;
     margin: auto;
     text-align: center;
     font-family: 'Lato', sans-serif;
